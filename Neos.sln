@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NeosWebSite", "NeosWebSite\", "{4B1E624A-4D7F-4E5C-816B-F9FBD4B86E56}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{26C7A7A6-4699-4EF1-8269-2764C2EC38A9}|Neos.Data.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/NeosWebSite"
+		Debug.AspNetCompiler.PhysicalPath = "NeosWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\NeosWebSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/NeosWebSite"
+		Release.AspNetCompiler.PhysicalPath = "NeosWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\NeosWebSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1451"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeosData", "NeosData\NeosData.csproj", "{26C7A7A6-4699-4EF1-8269-2764C2EC38A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B1E624A-4D7F-4E5C-816B-F9FBD4B86E56}.Debug|.NET.ActiveCfg = Debug|.NET
+		{4B1E624A-4D7F-4E5C-816B-F9FBD4B86E56}.Debug|.NET.Build.0 = Debug|.NET
+		{4B1E624A-4D7F-4E5C-816B-F9FBD4B86E56}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{4B1E624A-4D7F-4E5C-816B-F9FBD4B86E56}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{4B1E624A-4D7F-4E5C-816B-F9FBD4B86E56}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{4B1E624A-4D7F-4E5C-816B-F9FBD4B86E56}.Release|.NET.ActiveCfg = Debug|.NET
+		{4B1E624A-4D7F-4E5C-816B-F9FBD4B86E56}.Release|.NET.Build.0 = Debug|.NET
+		{4B1E624A-4D7F-4E5C-816B-F9FBD4B86E56}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{4B1E624A-4D7F-4E5C-816B-F9FBD4B86E56}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{4B1E624A-4D7F-4E5C-816B-F9FBD4B86E56}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{26C7A7A6-4699-4EF1-8269-2764C2EC38A9}.Debug|.NET.ActiveCfg = Release|Any CPU
+		{26C7A7A6-4699-4EF1-8269-2764C2EC38A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C7A7A6-4699-4EF1-8269-2764C2EC38A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C7A7A6-4699-4EF1-8269-2764C2EC38A9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{26C7A7A6-4699-4EF1-8269-2764C2EC38A9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{26C7A7A6-4699-4EF1-8269-2764C2EC38A9}.Release|.NET.ActiveCfg = Release|Any CPU
+		{26C7A7A6-4699-4EF1-8269-2764C2EC38A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C7A7A6-4699-4EF1-8269-2764C2EC38A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C7A7A6-4699-4EF1-8269-2764C2EC38A9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{26C7A7A6-4699-4EF1-8269-2764C2EC38A9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

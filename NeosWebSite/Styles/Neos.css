@@ -1,0 +1,476 @@
+﻿body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background: #FFF;
+}
+
+.text
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.welcome_text
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:12px;
+	color: #ff6600;
+}
+
+.neosWrapper
+{
+    margin: auto; /* position the website in the center of the browser */    
+    height: 100%;
+    width: 996px;
+}
+.header
+{
+	background-image:url(../images/logo_neos.gif) ;
+	background-repeat:no-repeat;
+	background-position:bottom left;
+	height:94px;
+}
+
+.nonedislay
+{
+	display:none;
+	visibility: hidden;
+
+}
+
+.rightpane_title
+{
+	background:url(../images/rightpane_title_bg.png) top center repeat-x;
+	position: fixed;
+	top:0px;
+	left:0px;
+	z-index:9001;
+	height:27px;
+	width:100%;
+	background-position: 0pt 0pt;
+	text-indent: 9px;	
+	font-family: Arial,Verdana,sans-serif;	
+	font-weight: bold;		
+	padding-top:7px;
+	color:Silver;
+}
+
+.sendemail
+{
+	margin:0px 0px 0px 0px;
+	background:url(../images/32x32/sendmail.png) top center no-repeat;
+	padding: 2.5em 1.2em;
+	font: 8pt "tahoma";
+	color: #336699;
+	text-decoration: none;
+	font-weight: normal;
+	letter-spacing: 0px;
+}
+
+.download_zip
+{
+	background:url(../images/zip.jpg) left no-repeat;
+	text-align:right;
+	padding-right:5px;	
+}
+
+.flatButton
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	border-top-color: -moz-use-text-color;
+	border-right-color: -moz-use-text-color;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-bottom-color: -moz-use-text-color;
+	border-left-color: -moz-use-text-color;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	font-size: 13px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	cursor: default;
+	text-decoration: none;
+	
+	background-color: #CEE1EF;
+	color: #224466;
+	border-top-color: #80b5d0;
+	border-right-color: #80b5d0;
+	border-bottom-color: #80b5d0;
+	border-left-color: #80b5d0;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	
+	
+	border-top-color: #535353;
+	border-right-color: #535353;
+	border-bottom-color: #535353;
+	border-left-color: #535353;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	
+	background-color: #CEE1EF;
+	border-top-color: #80b5d0;
+	border-right-color: #80b5d0;
+	border-bottom-color: #80b5d0;
+	border-left-color: #80b5d0;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+}
+#qsfexSeparator
+{
+    text-align: center;
+	background-color: transparent;
+	background-image: url(../images/separator-bg.gif);
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+	height: 7px;
+	line-height: 7px;
+	font-size: 0pt;
+}
+.qsfexHeader
+{
+	background-color: transparent;
+	background-image: url(../images/bg.png);
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+	background-position: 0pt 0pt;
+	height: 27px;
+	text-indent: 9px;	
+	font-family: Arial,Verdana,sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 27px;
+	font-size-adjust: none;
+	font-stretch: normal;
+	-x-system-font: none;
+}
+
+.toolbarBG
+{
+	background-color: transparent;
+	background-image: url(../images/toolbar-bg.jpg);
+	background-repeat: repeat-x;
+	height:34px;
+	width: 101%;
+}
+.toolbar_margin
+{
+	margin: 4px 0px 2px 2px !important;
+}
+
+.rtbText
+{
+	font-size: 12px;	
+}
+.border_lbr
+{
+	border-bottom: solid 3px #C4DAFA;
+	border-left:solid 3px #C4DAFA;
+	
+}
+
+.radSplitBar
+{
+	background-color:#B6D6FF !important;
+	border-color:#B6D6FF !important;
+	
+}
+
+a
+{
+	font-size: 12px;
+	color: #005ddc;
+	line-height: 12px;
+	font-family: Verdana;
+	text-decoration: none;
+}
+a:link
+{
+	color: #005ddc;
+	text-decoration: none;
+}
+a:visited
+{
+	color: #005ddc;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #005ddc;
+	text-decoration: underline;
+}
+
+.orange_link_10 a
+{
+	font-size: 5px;
+	color: #005ddc;
+	line-height: 5px;
+	font-family: Verdana;
+	text-decoration: none;
+}
+.orange_link_10:link
+{
+	color: #005ddc;
+	text-decoration: none;
+}
+.orange_link_10:visited
+{
+	color: #005ddc;
+	text-decoration: none;
+}
+
+.orange_link_10:hover
+{
+	color: #005ddc;
+	text-decoration: underline;
+}
+.collapPanelNoBorder
+{
+	border:None !important;
+	border-left: None !important;
+	border-bottom:None !important;
+	border-right:None !important;
+}
+
+.rightAlign
+{
+    text-align: right;
+}
+
+.bordertable
+{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-top-color: #b2b2b2;
+	border-right-color: #b2b2b2;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-bottom-color: #b2b2b2;
+	border-left-color: #b2b2b2;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+}
+.bottomborder
+{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #b2b2b2;
+}
+
+.input
+{
+	font-family: Tahoma,sans-serif;
+	color: #000000;
+	width: 200px;
+}
+
+.logintitle
+{
+	font-family: Tahoma,sans-serif;
+	color: #000000;
+	font-weight: bold;
+	vertical-align: middle;
+
+}
+.logintitle2
+{
+	font-family: Tahoma,sans-serif;
+	color: #000000;
+	font-weight: bold;
+	vertical-align: middle;
+
+}
+
+.loginsubmit
+{
+	font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,Verdana,sans-serif;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	border-top-color: -moz-use-text-color;
+	border-right-color: -moz-use-text-color;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-bottom-color: -moz-use-text-color;
+	border-left-color: -moz-use-text-color;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	font-size: 13px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	cursor: default;
+	text-decoration: none;
+	
+	background-color: #CEE1EF;
+	color: #224466;
+	border-top-color: #80b5d0;
+	border-right-color: #80b5d0;
+	border-bottom-color: #80b5d0;
+	border-left-color: #80b5d0;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	
+	
+	border-top-color: #535353;
+	border-right-color: #535353;
+	border-bottom-color: #535353;
+	border-left-color: #535353;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	
+	background-color: #CEE1EF;
+	border-top-color: #80b5d0;
+	border-right-color: #80b5d0;
+	border-bottom-color: #80b5d0;
+	border-left-color: #80b5d0;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+}
+
+.submit input:hover
+{
+	color:#D54E21;
+	border-top-color: #80b5d0;
+	border-right-color: #80b5d0;
+	border-bottom-color: #80b5d0;
+	border-left-color: #80b5d0;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+}
+.noneborder_textbox
+{
+	border: 1px #DFEBFB inset;
+}
+.noneborder_textbox
+{
+	border: 1px #DFEBFB inset;
+}
+
+.noneborder_textbox:hover
+{
+	border: 1px #DFEBFB inset;
+}
+
+.noneborder_textbox:focus
+{
+	border: 1px #DFEBFB inset;
+}
+
+.fileupload
+{
+	font-family: Tahoma,Verdana,sans-serif;
+	font-size: 12px;
+}
+.RadPanelBar .rpImage 
+{ 
+    margin: 4px 8px 0px 4px !important;
+    vertical-align:middle;
+}
+
+.document_search_result_title
+{
+
+border-top-width: 1px;
+border-top-style: solid;
+border-top-color: #6b90da;
+background-color: #f0f7f9;
+margin-top: 5px;
+margin-right: 0pt;
+margin-left: 0pt;
+
+}
+
+.document_search_result
+{
+	list-style-type: none;
+	list-style-image: none;
+	list-style-position: outside;
+
+	margin-top: 2px;
+	margin-right: 0pt;
+	margin-bottom: 1em;
+	margin-left: 0pt;
+	font-size: small;
+	font-family: arial,sans-serif;
+}
+
+.nopermission
+{
+	color: #993333;
+	font-size: 15px;
+	font-family: arial,sans-serif;
+}
+.vertical_scroll
+{
+	overflow:scroll;
+	overflow-x:hidden;	
+	overflow-y:hidden;
+	min-height: 246px;
+	border: solid 1px red
+	
+}

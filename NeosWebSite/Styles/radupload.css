@@ -1,0 +1,158 @@
+﻿.BodyCell div.radupload
+{
+    margin-left: 50px;
+    width:350px;
+}
+
+.InputField
+{
+    width: 140px;
+    border: solid 1px #cfcfcf;
+    background: white;
+    height: 17px;
+    _width: 150px;
+}
+
+.AdditionalInputs
+{
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+.ruInputs td
+{
+    padding: 3px 0;
+}
+
+.ruInputs label
+{
+    width: 70px;
+    padding-right: 5px;
+    text-align: right;
+    display: block;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+}
+
+.ruInputs .AdditionalInputs label
+{
+    float: none;
+}
+
+.radupload .ruInputs .ruFakeInput
+{
+    margin-left: 0;
+}
+
+.ruInputs .checkboxContainer
+{
+    padding-left: 75px;
+}
+
+.ruInputs .checkboxContainer label
+{
+    text-align: left;
+    padding-left: 5px;
+    display: inline;
+}
+
+.TextField
+{
+    border: solid 1px #cfcfcf;
+    background: white;
+    width: 140px;
+    height: 17px;
+}
+.RightCell span
+{
+    width: auto;
+}
+.FileDetails
+{
+    padding: 4px;
+}
+
+.FileDetails li
+{
+    clear: both;
+}
+
+.ruInputs li
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+table.AdditionalFields
+{
+    width: 732px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+    background: url('Img/BodyBg.gif') repeat-y;
+}
+
+table.AdditionalFields td
+{
+    vertical-align: top;
+}
+
+table.AdditionalFields td div.uploadedfiles
+{
+    background: #e7f9ff url('Img/ModuleBg.gif') no-repeat;
+    border: 0;
+    width: 240px;
+    height: 100%;
+    margin: 0;
+}
+
+table.AdditionalFields td div.uploadedfiles div
+{
+    margin: 0 16px;
+    padding: 16px 0;
+    font: bold 12px Arial;
+    color: #a6cfe1;
+}
+
+table.AdditionalFields td.TopCell
+{
+    background: url('Img/Top.gif') no-repeat;
+    height: 84px;
+}
+
+table.AdditionalFields td.BodyCell
+{
+    background: url('Img/Gradient.gif') no-repeat left bottom;
+    height: 330px;
+}
+
+table.AdditionalFields .RightCell
+{
+    background: transparent url('Img/Gradient.gif') no-repeat right bottom !important;
+    height: 100%;
+}
+
+table.AdditionalFields td.BottomCell
+{
+    background: url('Img/BottomBg.gif') no-repeat;
+    height: 52px;
+}
+
+table.AdditionalFields td.BottomCell .RadUploadButton
+{
+    margin-left: 40px;
+    margin-top: 11px;
+}
+
+table.AdditionalFields .RadUploadTable
+{
+    margin-left: 36px;
+}
+
+table.AdditionalFields .RadUploadTable td
+{
+    color: #4986b4;
+}

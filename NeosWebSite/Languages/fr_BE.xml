@@ -1,0 +1,717 @@
+<root>
+  <!--Languages-->
+  <string name="lblENGLISH_Language">English</string>
+  <string name="lblFRENCH_Language">French</string>
+  <string name="lblDUTCH_Language">Dutch</string>
+
+  <!--Comon terms-->
+  <string name="yesText">Yes</string>
+  <string name="noText">No</string>
+  <string name="bothText">Both</string>
+  <string name="betweenText">between</string>
+  <string name="andText">and</string>
+  <string name="dateText">Date</string>
+  <string name="editText">Edit</string>
+  <string name="saveText">Save</string>
+  <string name="deleteText">Delete</string>
+  <string name="exitText">Exit</string>
+  <string name="cancelText">Cancel</string>
+  <string name="addText">Add</string>
+  <string name="removeText">Remove</string>
+  <string name="exportText">Export</string>
+  <string name="okText">OK</string>
+  <string name="fromText">From</string>
+  <string name="toText">to</string>
+  <string name="deleteConfirmText">Are you sure you want to delete?</string>
+  <string name="itemAlreadyExist">This item is already exist.</string>
+  <string name="yearText">Year</string>
+  <string name="monthText">Month</string>
+  <string name="weekText">Week</string>
+  <string name="dayText">Day</string>
+  <string name="blankText">Blank</string>
+  <string name="btnSearch">Search</string>
+  <string name="allText">All</string>
+  <string name="backText">Back</string>
+
+  <string name="headerText">Header</string>
+  <string name="goText">Go</string>
+
+  <!--Welcome.aspx-->
+  <string name="lblWecomeMessage">Welcome to Néos Projects beta.</string>
+  <string name="lblWecomeNotificationMessage">
+    The application requires to open Popup windows to work properly. Please configure your browser and your Popup Blocker to allow this site to open popups.
+  </string>
+
+  <string name="lblStartNeosProject">Start Neos Project</string>
+
+
+  <!--Home page: Logout control-->
+  <string name="lblLogout">Log out</string>
+  <string name="lblWelcome">Welcome</string>
+
+  <!--Home page : ToolBar-->
+  <string name="confirmDeleteCandidate">Are you sure you want to delete this candidate?</string>
+  <string name="confirmDeleteCompany">Are you sure you want to delete this company?</string>
+  <string name="confirmDeleteAction">Are you sure you want to delete this action?</string>
+  <string name="confirmExportAction">Are you sure you want to export this action to Outlook appointment?</string>
+  <string name="confirmDeleteJob">Are you sure you want to delete this job?</string>
+  <string name="confirmDeleteInvoice">Are you sure you want to delete this invoice?</string>
+
+  <!--Home page : ToolBar: CandidateToolBar-->
+  <string name="toolBarNew">
+    <![CDATA[<u>N</u>ew]]>
+  </string>
+
+  <string name="toolBarNewCandidate">
+    <![CDATA[<u>C</u>andidate]]>
+  </string>
+  <string name="toolBarNewCompany">
+    <![CDATA[Com<u>p</u>any]]>
+  </string>
+  <string name="toolBarNewAction">
+    <![CDATA[<u>A</u>ction]]>
+  </string>
+  <string name="toolBarNewJob">
+    <![CDATA[<u>J</u>ob]]>
+  </string>
+  <string name="toolBarNewInvoice">
+    <![CDATA[<u>I</u>nvoice]]>
+  </string>
+
+  <string name="toolBarOpen">Open</string>
+  <string name="toolBarDelete">Delete</string>
+
+  <string name="toolBarViewEdit">View/Edit</string>
+  <string name="toolBarViewEditChangeMode">Change mode</string>
+
+  <string name="toolBarSave">Save</string>
+  <string name="toolBarAdvanceSearch">Advance search</string>
+  <string name="toolBarActions">Actions</string>
+  <string name="toolBarAddAction">Add Action</string>
+
+  <string name="toolBarJobs">Jobs</string>
+  <string name="toolBarAddJob">Add Job</string>
+
+  <string name="toolBarInvoices">Invoices</string>
+  <string name="toolBarAddInvoice">Add Invoice</string>
+
+  <string name="toolBarPreview">Preview</string>
+  <string name="toolBarPrint">Print</string>
+  <string name="toolBarEmail">Email</string>
+  <string name="toolBarCopy">Copy</string>
+
+
+  <!--Home page : Panel Bar-->
+  <string name="candidatesPanelBarItemText">Candidates</string>
+  <string name="companiesPanelBarItemText">Companies</string>
+  <string name="actionsPanelBarItemText">Actions</string>
+  <string name="jobsPanelBarItemText">Jobs</string>
+  <string name="statisticsPanelBarItemText">Statistics</string>
+  <string name="administrationPanelBarItemText">Administration</string>
+  <string name="invoicingPanelBarItemText">Invoicing</string>
+  <string name="notificationPanelBarItemText">Notification</string>
+
+  <string name="lnkCandidateAdvancedSearch">Advanced Search</string>
+  <string name="litLastFiveCandidate">Last 5 viewed candidates:</string>
+  <string name="lblSearchCV">Search on candidate's CV</string>
+
+  <string name="btnSearchCandidates">Search</string>
+
+  <string name="btnCompanySearch">Search</string>
+  <string name="lnkAllCompanies">All</string>
+  <string name="lnkCustomerCompany">Customers</string>
+  <string name="lnkProspectCompany">Propects</string>
+  <string name="lnkDisabledCompany">Disabled</string>
+  <string name="lblLastViewedCompanies">Last 5 viewed companies:</string>
+
+  <string name="lblMyActions">My actions:</string>
+  <string name="lnkMyActiveThisWeek">Active this week</string>
+  <string name="lnkMyActive">Active</string>
+  <string name="lnkMyInactive">Inactive</string>
+  <string name="lnkMyActions">All my actions</string>
+  <string name="lblAllAction">Search</string>
+  <string name="lnkActiveAction">Active</string>
+  <string name="lnkInactiveAction">Inactive</string>
+  <string name="lnkAllActions">All</string>
+
+  <!--Actions -->
+  <string name="lblRightPaneActionTitle">Actions</string>
+  <string name="lblRightPaneActionDetailTitle">Action Details</string>
+  <string name="lblRightPaneAddNewActionTitle">New Action</string>
+
+  <!--Jobs -->
+  <string name="lblRightPaneJobTitle">Jobs</string>
+  <string name="lblRightPaneAddNewJob">New Job</string>
+
+  <!--Candidate grid page-->
+  <string name="columnLastNameCandidateGrid">Last Name</string>
+  <string name="columnFirstNameCandidateGrid">First Name</string>
+  <string name="columnStatusCandidateGrid">Status</string>
+  <string name="columnContactInfoCandidateGrid">Contact Info</string>
+  <string name="columnLastModifCandidateGrid">Last Modif.</string>
+
+  <string name="lnkAddNewCandidate">Add new candidate</string>
+
+  <!--Candidate profile page-->
+  <string name="lblRightPaneCandidateProfileTitle">{0}'s Profile</string>
+  <string name="lblRightPaneAddNewCandidateTitle">New Candidate</string>
+
+  <string name="lblCanLastName">Last Name</string>
+  <string name="lblCanFirstName">First Name</string>
+  <string name="lblCanUnit">Unit</string>
+  <string name="lblCanInterviewer">Interviewer</string>
+  <string name="lblDateInterview">Date Interview</string>
+
+  <string name="tabCanGeneralText">General</string>
+  <string name="tabCanExpectancyText">Expectancies</string>
+
+  <string name="tabCanStudyExperienceText">Studies/Experience</string>
+  <string name="tabCanEvaluationText">Evaluation</string>
+  <string name="tabCanKnowledgeFunctionText">Knowledge/Function</string>
+  <string name="tabCanPresentationText">Presentation</string>
+  <string name="tabCanActionText">Actions</string>
+  <string name="tabCanDocumentText">Documents</string>
+
+  <!--Candidate profile page : tab General-->
+  <string name="candidateContactPhone">Phone</string>
+  <string name="candidateContactFax">Fax</string>
+  <string name="candidateContactMobile">Mobile</string>
+  <string name="candidateContactEmail">Email</string>
+
+  <string name="lblCanAddress">Address</string>
+  <string name="lblCanZip">Zip</string>
+  <string name="lblCanCity">City</string>
+  <string name="lblCanCountry">Country</string>
+  <string name="lblCanGenre">Genre</string>
+
+  <string name="lblCanNationality">Nationality</string>
+  <string name="lblCanDateOfBirth">Date of birth</string>
+  <string name="lblCanAge">Age</string>
+  <string name="lnkCanContactAdd">Add Candidate Telephone</string>
+  <string name="lblCanCreationDate">Creation Date</string>
+  <string name="lblCanStatus">Status</string>
+  <string name="lblCanInactivityReason">Inactivity reason</string>
+  <string name="lblCanRemarkGeneral">Remark</string>
+  <string name="lblCandidateWishes">Candidate Wishes</string>
+  <string name="lblCanArea">Area</string>
+  <string name="lblCanSalary">Salary</string>
+  <string name="lblCanCompanyGeneral">Company</string>
+
+  <string name="notImportantCompaniesText">sans importance</string>
+  <string name="smallAndMediumCompaniesText">PME</string>
+  <string name="bigCompaniesText">Grande enterprise</string>
+  <string name="groupCompaniesText">Groupe</string>
+  <string name="multinationalCompaniesText">Multinationale</string>
+
+  <string name="lblCanContractType">Contract type</string>
+  <string name="notImportantContractText">sans importance</string>
+  <string name="permanentContractText">CDI</string>
+  <string name="fixedPeriodeContractText">CDD</string>
+  <string name="projectMissionContractText">PROJET/MISSION</string>
+  <string name="freelanceContractText">INDEPENDANT</string>
+
+  <string name="lblCanFunction">Function</string>
+  <string name="lblCanMotivation">Motivation</string>
+
+  <string name="candidateTelephonePopupTitle">Candidate's telephone</string>
+  <string name="columnTypeCandidateContact">Type</string>
+  <string name="columnZoneCandidateContact">Zone</string>
+  <string name="columnPhoneMailCandidateContact">Phone/Mail</string>
+  <string name="columnPlaceCandidateContact">Place</string>
+
+  <string name="lnkBackToAction">Back to action list</string>
+  <!--Candidate profile page : tab Expectancies-->
+  <string name="lblAddRemoveExpectancy">Add Expectancy</string>
+
+  <!--Candidate profile page : tab Studies/experience-->
+  <string name="lblCanStudies">Studies</string>
+  <string name="lnkAddNewStudy">Add new study</string>
+  <string name="lblCanExperience">Experience</string>
+  <string name="lnkAddNewExperience">Add new experience</string>
+
+  <string name="candidateStudyPopupTitle">Candidate's study</string>
+  <string name="columnPeriodStudiesCan">Period</string>
+  <string name="columnTrainingStudiesCan">Training</string>
+  <string name="columnDiplomaStudiesCan">Diploma</string>
+  <string name="columnLevelStudiesCan">Level</string>
+  <string name="columnSchoolStudiesCan">School</string>
+  <string name="messageStudyPeriodeIsNotValid">Study periode is not valid</string>
+
+  <string name="candidateExperiencePopupTitle">Candidate's experience</string>
+  <string name="columnPeriodExperienceCan">Period</string>
+  <string name="columnCompanyExperienceCan">Company</string>
+  <string name="columnSalaryExperienceCan">Salary</string>
+  <string name="columnSalaryPackageExperienceCan">Salary package</string>
+  <string name="columnJobTitleExperienceCan">Job title</string>
+  <string name="columnQuitReasonExperienceCan">Quit reason</string>
+  <string name="columnFunctionExperienceCan">Function</string>
+  <string name="columnFunctionUnitExperienceCan">Unit</string>
+  <string name="columnFunctionFamExperienceCan">Family</string>
+  <string name="messageExperiodePeriodeIsNotValid">Experience periode is not valid</string>
+
+  <!--Candidate profile page : tab Evaluation-->
+  <string name="lblCanPresentationEval">Presentation</string>
+  <string name="lblCanGlobal">Global</string>
+  <string name="lblCanVerbal">Verbal</string>
+  <string name="lblCanOtherEval">Other</string>
+  <string name="lblCanAutonomy">Autonomy</string>
+  <string name="lblCanMotivationEval">Motivation</string>
+  <string name="lblCanPersonality">Personality</string>
+  <string name="lblCanLanguage">Language</string>
+  <string name="lblCanFrenchLang">Friench</string>
+  <string name="lblCanGermanLang">German</string>
+  <string name="lblCanDutchLang">Dutch</string>
+  <string name="lblCanSpanishLang">Spanish</string>
+  <string name="lblCanEnglishLang">English</string>
+  <string name="lblCanItalianLang">Italian</string>
+  <string name="lblCanOtherLang">Other</string>
+
+  <string name="languageSkillLevel0">Inconnu</string>
+  <string name="languageSkillLevel1">Notions</string>
+  <string name="languageSkillLevel2">Conversation de base</string>
+  <string name="languageSkillLevel3">Bonne connaissance</string>
+  <string name="languageSkillLevel4">Très bonne connaissance</string>
+  <string name="languageSkillLevel5">Langue maternelle</string>
+
+  <!--Candidate profile page : tab Knowledge/Function-->
+  <string name="lblCanKnowledgeGrid">Knowledge</string>
+  <string name="lblCanFunctionGrid">Function</string>
+  <string name="gridKnowFunctionTypeColumn">Type</string>
+  <string name="gridKnowFunctionGroupColumn">Group</string>
+  <string name="lblFieldSetKnowFunc_Knowledge">Add Knowledge</string>
+  <string name="lblFieldSetKnowFunc_Function">Add Function</string>
+  <string name="lblKnowFuncUnit">Unit</string>
+  <string name="lblKnowFuncFam">Family</string>
+
+  <!--Candidate profile page : tab Presentation-->
+  <string name="btnGeneratePresentation">Generate Presentation</string>
+  <string name="lblSendPresentation">Send the resentation</string>
+
+  <string name="lblCompanyPresent">Company</string>
+  <string name="lblContactsPresent">Contacts</string>
+  <string name="lblAttachedDocumentsPresent">Attached Documents</string>
+  <string name="lblCompanyDocumentsPresent">Company Documents</string>
+  <string name="btnSendPresentation">Send the presentation now</string>
+
+  <string name="columnNameContactsPresent">Name</string>
+  <string name="columnEmailContactsPresent">e-mail</string>
+  <string name="columnDocumentAttachedDocPresent">Name</string>
+  <string name="columnCreatedDateAttachedDocPresent">Created Date</string>
+
+  <string name="lblAutomaticallyCreateAction">Automatically create action</string>
+  <string name="lblSendMailTo">To</string>
+  <string name="lblSendMailCC">CC</string>
+  <string name="lblSendMailSubject">Subject</string>
+  <string name="btnSendMailSendText">Send</string>
+  <string name="lblSendMailAttachments">Attachments</string>
+  <!--Candidate profile page : tab Action-->
+  <string name="lnkAddNewAction">Add new action</string>
+
+  <string name="candidateActionPopupTitle">Action Add/Edit</string>
+  <string name="chooseCandidatePopupTitle">Choose candidate</string>
+  <string name="chooseCompanyPopupTitle">Choose company</string>
+  <string name="columnActiveActionCan">Active</string>
+  <string name="columnTaskNbrActionCan">Task nbr</string>
+  <string name="columnDateActionCan">Date</string>
+  <string name="columnHourActionCan">Hour</string>
+  <string name="columnTypeActionCan">Type</string>
+  <string name="columnCompanyActionCan">Company</string>
+  <string name="columnCandidateActionCan">Candidate</string>
+  <string name="columnDescriptionActionCan">Description</string>
+  <string name="columnResponsibleActionCan">Responsible</string>
+  <string name="lblAppointmentPlace">Appointment place</string>
+  <string name="lblCompanyResult">Company result</string>
+  <string name="lblCandidateResult">Candidate result</string>
+  <string name="lblActionDescription">Description</string>
+
+  <string name="messageExportActionNotHaveEmail">Can not export the action because the action doesn't have any email contact?</string>
+  <string name="messageExportActionSuccessfull">Export successfully</string>
+  <!--Candidate profile page : tab Documents-->
+  <string name="candidateDocumentPopupTitle">Candidate's documents</string>
+  <string name="columnNameDocumentCan">Name</string>
+  <string name="columnLegendDocumentCan">Legend</string>
+  <string name="columnCreatedDateDocumentCan">Created date</string>
+  <string name="lblAddNewDocument">Add New Document</string>
+  <string name="lblDocumentLegend">Legend</string>
+  <string name="lblFileUpload">File</string>
+  <string name="lblSelectADocFile">Please select a document file</string>
+  <string name="messageCanNameMustNotBeEmpty">Last Name and First Name of candidate must not be empty</string>
+  <string name="confirmDeleteDocument">Are you sure you want to delete this document?</string>
+  <string name="addMultiFile">Add Multi Files</string>
+  <string name="addSingleFile">Add Single File</string>
+  <string name="msgNotSelectFiles">Please select files you want to upload. </string>
+
+  <!--Candidate advanced search -->
+  <string name="lblMustHaveOneAdvancedSearch">Must have at least one</string>
+  <string name="lblMustHaveAllAdvancedSearch">Must have all</string>
+
+  <string name="lblGeneralFieldAdvancedSearch">General</string>
+  <string name="lblActiveAdvancedSearch">Active</string>
+  <string name="lblSignageFieldAdvancedSearch">Location</string>
+  <string name="lblLocationAdvancedSearch">Location</string>
+
+  <string name="lblFormationFieldAdvancedSearch">Formation</string>
+  <string name="lblBackgroundLevelAdvancedSearch">Background level</string>
+  <string name="lblOrientationAdvancedSearch">Orientation</string>
+  <string name="lblStudySelectionAdvancedSearch">Study selection</string>
+
+  <string name="lblKnowledgeSelectionAdvancedSearch">Knowledge selection</string>
+  <string name="lblFunctionSelectionAdvancedSearch">Function selection</string>
+
+
+
+  <!--Companies.aspx-->
+
+  <string name="lblRightPaneCompanyTitle">Companies</string>
+  <string name="messageComNameMustNotBeEmpty">Company name must not be empty</string>
+  <string name="lblTelephone">Tél</string>
+  <string name="lblTelephoneFull">Telephone</string>
+  <string name="lblFax">Fax</string>
+  <string name="lblCompanyName">Name</string>
+  <string name="lblCompanyNameFull">Company Name</string>
+  <string name="lblCity">City</string>
+  <string name="lblType">Type</string>
+  <string name="lblContactInfo">Contact Infos</string>
+  <string name="lblNeosResp">Néos resp.</string>
+  <string name="lblJob">Job</string>
+  <string name="lblUnitCode">Unit code</string>
+
+  <string name="gridCompanyPagerTextFormat">Change page: {4} Displaying page {0} of {1}, items {2} to {3} of {5}</string>
+  <!--Company Profile-->
+
+  <string name="lblRightPaneCompanyProfileTitle">{0}'s Profile</string>
+  <string name="lblRightPaneAddNewCompanyTitle">New Company</string>
+  <string name="lblNameCom">Name</string>
+  <string name="lblNeosResponsible">Néos responsible</string>
+  <string name="lblWebsite">Web site</string>
+  <string name="lblLegalForm">Legal form</string>
+  <string name="lblGroup">Group</string>
+  <string name="lblZipcode">Zip code</string>
+  <string name="lblLocality">Locality</string>
+  <string name="lblPhoneArea">Phone area</string>
+  <string name="lblPhoneZone">Phone zone</string>
+  <string name="lblZoneSponsor">Zone sponsor</string>
+  <string name="lblPhone">Phone</string>
+  <string name="lblEmail">Email</string>
+  <string name="lblVATNumber">VAT number</string>
+
+  <string name="lblAddContact">Add New Contact</string>
+  <string name="lblAddContactInfo">Add New Info</string>
+  <string name="lblGender">Gender</string>
+  <string name="lblInfo">Info</string>
+  <string name="lblReceiveNeosNewsletter">Receive newsletter from Néos</string>
+  <string name="confirmDeleteContact">Are you sure you want to delete this contact?</string>
+  <string name="confirmDeleteContactInfo">Are you sure you want to delete this info?</string>
+  <string name="lblActivity">Activity</string>
+  <string name="lblSponsor">Sponsor</string>
+  <string name="lblAddNewCompany">Add New Company</string>
+  <string name="lblAdd">Add</string>
+  <string name="msgSelectACompany">Please select a company in the company list</string>
+  <string name="msgSelectAContact">Please select a contact in the contact list</string>
+
+  <string name="companyContactPopupTitle">Company's contact</string>
+  <string name="companyContactInfoPopupTitle">Company's contact info</string>
+  <string name="lblBackToActionList">Back to action list</string>
+
+  <string name="lblCompanyProfileContactInfo">Contact Info</string>
+  <string name="lblCompanyProfileClientInfo">Client Info</string>
+  <string name="lblCompanyProfileActions">Actions</string>
+  <string name="lblCompanyProfileInvoiceCoordinates">Invoice Coordinates</string>
+  <string name="lblCompanyProfileJobs">Jobs</string>
+  <string name="lblCompanyDocuments">Documents</string>
+
+  <string name="lblCoordinateDefault">Default</string>
+  <string name="lblFactoringCode">Factoring code</string>
+  <string name="lnkAddNewInvoiceCoordinate">Add new invoice coordinate</string>
+
+  <string name="lnkAddNewInvoiceCoordinate">Add new invoice coordinate</string>
+
+  <string name="lblNbrCustomer">Nbr. customer</string>
+  <string name="lblInvCoorCO">c/o</string>
+
+  <string name="companyDocumentPopupTitle">Company's documents</string>
+
+  <!--login.aspx-->
+  <string name="lblSignIn">Sign In</string>
+  <string name="lblUserName">User name</string>
+  <string name="lblPassword">Password</string>
+  <string name="lblRememberMe">Remember me next time</string>
+  <string name="msgUserNotFound">User not found</string>
+  <string name="msgEnterUserName">Please enter a username</string>
+
+  <!--Home.aspx Home Panel-->
+  <string name="lblUnreadMessage">Unread Message ({0})</string>
+  <!--Home.aspx Job Panel-->
+  <string name="lblJobPanelTitle">Title</string>
+  <string name="lblJobPanelCreatedDate">Created</string>
+  <string name="lblJobPanelActivatedDate">Activated</string>
+  <string name="lblJobPanelExpiredDate">Expired</string>
+  <string name="lblJobPanelProfile">Profile</string>
+  <string name="lblJobPanelFunctionFam">Function Fam</string>
+  <string name="lblJobPanelLocation">Location</string>
+  <string name="lblJobPanelResponsible">Responsible</string>
+  <string name="lblJobPanelCompanyName">Company</string>
+  <string name="lblJobPanelIsActive">Active</string>
+  <string name="lblJobPanelSearch">Search</string>
+  <string name="lblJobPanelActive">Active ads</string>
+  <string name="lblJobPanelInActive">Inactive ads</string>
+  <string name="lblJobPanelAll">All</string>
+
+  <!--Job.aspx-->
+  <string name="lblAddNewJob">Add New Job</string>
+
+  <string name="lblJobTitle">Title</string>
+  <string name="lblJobCompanyName">Company Name</string>
+  <string name="lblJobLocation">Location</string>
+  <string name="lblJobVisits">Visits</string>
+  <string name="lblJobCreatedDate">Created Date</string>
+  <string name="lblJobExpiredDate">Expired Date</string>
+  <string name="confirmDeleteJob">Are you sure you want to delete this job?</string>
+  <!--JobProfile.aspx-->
+  <string name="lblJobProfile">Profile</string>
+  <string name="lblJobResponsible">Responsible</string>
+  <string name="lblJobActivatedDate">Activated Date</string>
+  <string name="lblJobFunction">Function</string>
+  <string name="lblJobConfidential">Confidential</string>
+  <string name="lblJobEmail">Email</string>
+  <string name="lblJobExpiredDate">Expired Date</string>
+  <string name="lblJobCompany">Company</string>
+  <string name="lblJobActive">Active</string>
+  <string name="lblJobUrl">Url</string>
+  <string name="lblJobRemindDate">Remind Date</string>
+  <string name="lblJobCompanyDescription">Company Description</string>
+  <string name="lblJobDescription">Job Description</string>
+  <string name="lblJobPersonalDescription">Personal Description</string>
+  <string name="lblJobPackageDescription">Package Description</string>
+
+  <string name="btnJobActivate">Activate</string>
+  <string name="btnJobDeactivate">Deactivate</string>
+  <string name="btnJobBatchUpdate">Batch update</string>
+  
+  <string name="lblUsersAdminUser">Users</string>
+  <string name="columnUserUserID">User ID</string>
+  <string name="columnUserName">Name</string>
+  <string name="columnUserGender">Gender</string>
+  <string name="columnUserEmail">Email</string>
+  <string name="columnUserTelelphone">Telephone</string>
+  <string name="columnUserActive">Active</string>
+  <string name="lblAddNewUser">Add new user</string>
+
+  <string name="lblUserPermissionAdminPermission">User's permissions</string>
+  <string name="columnPermissionCode">Code</string>
+  <string name="columnPermissionDescription">Description</string>
+
+  <string name="lblJobTitleNL">Title (NL)</string>
+  <string name="lblJobCompanyDescriptionNL">Company Description (NL)</string>
+  <string name="lblJobDescriptionNL">Job Description (NL)</string>
+  <string name="lblJobPersonalDescriptionNL">Personal Description (NL)</string>
+  <string name="lblJobPackageDescriptionNL">Package Description (NL)</string>
+
+  <string name="lblJobTitleEN">Title (EN)</string>
+  <string name="lblJobCompanyDescriptionEN">Company Description (EN)</string>
+  <string name="lblJobDescriptionEN">Job Description (EN)</string>
+  <string name="lblJobPersonalDescriptionEN">Personal Description (EN)</string>
+  <string name="lblJobPackageDescriptionEN">Package Description (EN)</string>
+
+  <string name="lblJobRef">Job Ref</string>
+  <string name="lblNumberApplications">Applications</string>
+  <string name="lblNumberOfVisits">Visits</string>
+  <string name="lblJobLastModifDate">Last Modif.</string>
+
+  <!--Administration : User and Permission-->
+  <string name="messageUserIDAlreadyExist">The UserID already exist</string>
+  <string name="messageUserIDMustNotBeEmpty">User ID must not be empty</string>
+  <string name="messageUserEmailNotValid">The email is not valid</string>
+  <string name="messageConfirmPassworNotValid">New password and confirmed password are not the same. Please type again.</string>
+  <string name="btnChangePassword">Change password</string>
+  <string name="lblPassword">Password</string>
+  <string name="lblNewPassword">New password</string>
+  <string name="lblConfirmPassword">Confirm password</string>
+
+  <string name="messageUserBeingUsed">Can not delete this user because it is being used.</string>
+
+  <!--Administration : Permission-->
+  <string name="messagePermissionBeingUsed">Can not delete or change this permission code because it is being used.</string>
+  <string name="messagePermissionCodeMustNotBeEmpty">Permission code must not be empty</string>
+
+  <!--Administration : Locations-->
+  <string name="messageLocationMustNotBeEmpty">Can not delete or change this permission code because it is being used.</string>
+  <string name="messageLocationCodeMustNotBeEmpty">Locaction code must not be empty</string>
+  <string name="messageLocationBeingUsed">Can not delete or change this location because it is being used.</string>
+  <string name="messageLocationCodeBeingUsed">Can not change this location code because it is being used.</string>
+
+  <!--Administration : Profiles-->
+  <string name="messageProfileBeingUsed">Can not delete this profile because it is being used.</string>
+
+  <string name="messageFunctionFamBeingUsed">Can not delete or change this function category because it is being used.</string>
+  <string name="messageFunctionBeingUsed">Can not delete or change this function because it is being used.</string>
+  <string name="messageKnowledgeFamBeingUsed">Can not delete or change this knowledge category because it is being used.</string>
+  <string name="messageKnowledgeBeingUsed">Can not delete or change this knowledge because it is being used.</string>
+  <string name="messageStudyLevelBeingUsed">Can not delete this study level because it is being used.</string>
+  <string name="messageStudyBeingUsed">Can not delete this study because it is being used.</string>
+  <string name="messageTypeActionBeingUsed">Can not delete this action type because it is being used.</string>
+  <string name="messageLanguageBeingUsed">Can not delete or change this language because it is being used.</string>
+  <string name="messageNationalityBeingUsed">Can not delete or change this nationality because it is being used.</string>
+  <string name="messageSituationCivilBeingUsed">Can not delete or change this civil situation because it is being used.</string>
+  <string name="messageClientStatusBeingUsed">Can not delete this client status because it is being used.</string>
+
+  <!--Statistics -->
+  <string name="lblRightPaneStatistics">Statistics</string>
+  <string name="lblRightPaneStudyLevel">Study Level</string>
+  <string name="lblRightPaneCandidateInscriptions">Evolution of candidates inscriptions by period</string>
+  <string name="lblRightPaneCandidateLocation">Candididate Locations</string>
+
+
+  <string name="hypGeneralStatistics">General statistics</string>
+  <string name="hypStudyLevelStatistics">Study level statistics</string>
+  <string name="hypCandidateInscription">Candidate inscriptions statistics</string>
+  <string name="hypCandidateLocation">Candidate locations statistics</string>
+
+  <string name="lblNbrActiveCandidateText">Number of active candidates :</string>
+  <string name="lblTotalCandidateText">Total number of candidates :</string>
+  <string name="lblNbrActCanOfCurUserText">Number of active candidates related to current user :</string>
+  <string name="lblTotalCanOfCurUserText">Total number of candidates related to current user :</string>
+  <string name="lblNbrCompanyText">Number of companies :</string>
+  <string name="lblNbrActiveCustomerText">Number of active customers :</string>
+  <string name="lblNbrProspectsText">Number of prospects :</string>
+
+  <string name="lblStatisticsNbrOfCandidates">Number of candidates</string>
+  <string name="lblStatisticsStudyLevel">Study level</string>
+  <string name="lblEvolutionInscriptionsPeriode">Evolution of candidates incriptions by period</string>
+  <string name="lblEvolutionByYear">Evolution by year</string>
+  <string name="lblEvolutionByMonth">Evolution by month</string>
+  <string name="lblEvolutionByWeek">Evolution by week</string>
+  <string name="lblEvolutionByDay">Evolution by day</string>
+  <string name="lblStatisticsLocation">Location</string>
+
+  <!--Invoices -->
+  <string name="CompanyAddressMustNotNull">Please choose a company and address.</string>
+  <string name="messageAlreadyHasDefaultAddress">Another default address is already exist.</string>
+  <string name="messageExportSuccessfully">Export successfully.</string>
+  <string name="messageInvoiceNotHaveAnyEmail">This invoice doesn't have any email address.</string>
+  <string name="messageInvoicesNotHaveSameEmail">Please select invoices having the same e-mail recipient.</string>
+  <string name="messageInvalidDateTurnover">Please select a valid start date and end date</string>
+
+  <string name="lblInvoiceInvoice">Facture</string>
+  <string name="lblInvoiceCreditNote">Credit note</string>
+
+  <string name="lblInvoiceNumber">Invoice number</string>
+  <string name="lblFiscalYear">Fiscal year</string>
+  <string name="lblInvoiceDate">Invoice date</string>
+  <string name="lblInvoiceType">Invoice type</string>
+  <string name="lblInvoiceCustomer">Customer</string>
+  <string name="hypUnpaidInvoice">Unpaid invoices</string>
+  <string name="hypFutureInvoice">Future invoices</string>
+  <string name="hypTurnover">Turnover</string>
+
+  <string name="lblInvoiceGridHeader">Invoices</string>
+  <string name="lblInvoiceFutureGridHeader">Future invoices</string>
+  <string name="columnCompanyNameHeader">Company</string>
+  <string name="columnCompanyRefHeader">Com. Ref.</string>
+  <string name="columnInvoiveCreditNumberHeader">Inv/Cre Nbr.</string>
+  <string name="columnInvoiceTypeHeader">Type</string>
+  <string name="columnInvoiceDateHeader">Date</string>
+  <string name="columnAmountVATExcludeHeader">Amount VAT Exclude (€)</string>
+  <string name="columnVATAmountHeader">VAT amount (€)</string>
+  <string name="columnTotalVATHeader">Total VAT (€)</string>
+  <string name="columnInvoiceRemarkHeader">Remark</string>
+  <string name="columnInvoiceInternalRemarkHeader">Internal remark</string>
+  <string name="lnkAddInvoice">Add new invoice</string>
+
+  <string name="lblInvoiceDetail">Invoice details</string>
+  <string name="columnInvoiceDetailDescriptionHeader">Description</string>
+  <string name="columnInvoiceDetailQuantityHeader">Quantity</string>
+  <string name="columnInvoiceDetailUnitPriceHeader">Unit price</string>
+  <string name="columnInvoiceDetailAmountHeader">Amount Euro</string>
+  <string name="columnInvoiceDetailCodeVATHeader">Code VAT</string>
+  <string name="columnInvoiceDetailPercentVATHeader">% VAT</string>
+  <string name="columnInvoiceDetailAmountVATHeader">VAT</string>
+  <string name="columnInvoiceDetailTotalAmountHeader">Total</string>
+  <string name="lnkAddInvoiceDetail">Add new invoice detail</string>
+  <string name="labelTotalInvoiceDetailAmount">Total details amount</string>
+
+
+  <string name="btnInvoicePrintAll">Print all</string>
+  <string name="btnInvoiceEmailSelection">Email selection</string>
+  <string name="btnInvoiceExcelExport">Excel export</string>
+
+  <string name="columnInvoiceUnpaidCompanyHeader">Company</string>
+  <string name="columnInvoiceUnpaidDueAmountHeader">Due amount</string>
+  <string name="columnInvoiceDetailOldestDateHeader">Oldest unpaid invoice</string>
+  <string name="labelTotalInvoicePaymentAmount">Total payments amount</string>
+
+  <string name="labelTotalInvoiceRemainAmount">Remain</string>
+  <string name="labelTotalInvoiceUnpaid">Unpaid</string>
+  <string name="labelTotalInvoicePaid">Paid</string>
+  <string name="lblDownloadZipFile">Download .Zip File</string>
+
+  <!--Invoices Profile-->
+  <string name="messageInvoiceDateNotNull">The invoice date must not be empty</string>
+  <string name="messageInvoiceDateNotValidFiscalDate">The invoice date must lie in the fiscal period {0} - {1} </string>
+  <string name="messageInvoiceDateMustHigherthan">The invoice date must not be higher than </string>
+  <string name="messageInvoiceDateMustLowerthan">The invoice date must not be lower than </string>
+  <string name="messageInvoiceCanNotDelete">Can not delete this invoice because it is not the last invoice of a fical year.</string>
+
+  <string name="lblInvoiceCustomer">Customer</string>
+  <string name="lblInvoiceIDCustomer">Id customer</string>
+  <string name="lblInvoiceAddressName">Name</string>
+  <string name="lblInvoiceVATNumber">VAT number</string>
+  <string name="lblInvoiceAddress">Address</string>
+  <string name="lblInvoiceZipCode">Zip code</string>
+  <string name="lblInvoiceCity">City</string>
+  <string name="btnChooseCustomer">Find customer</string>
+  <string name="btnChooseAddress">Choose address</string>
+
+  <string name="tabInvoiceDetail">Details</string>
+  <string name="tabInvoicePayment">Payments</string>
+
+  <string name="columnInvoicePaymentDateHeader">Date</string>
+  <string name="columnInvoicePaymentAmountHeader">Amount</string>
+  <string name="columnInvoicePaymentRemarkHeader">Remark</string>
+  <string name="lnkAddNewInvoicePayment">Add new payment</string>
+
+  <string name="lblInvoiceTotalHTVA">Total H.T.V.A (€)</string>
+  <string name="lblInvoiceTotalVAT">Total V.A.T (€)</string>
+  <string name="lblInvoiceTotal">Total (€)</string>
+  <string name="lblInvoicePaymentDate">Payment date</string>
+  <string name="lblInvoicePayment">Payment</string>
+
+  <string name="lblTurnoverStartDate">Start date :</string>
+  <string name="lblTurnoverEndDate">Start date :</string>
+  <string name="lblTurnoverAmount">Turnover (€) :</string>
+
+  <string name="lblInvoiceDetailHeader">Invoice detail</string>
+  <string name="lblInvoiceDetailVATHeader">VAT</string>
+  <string name="lblInvoiceDetailVAT">% V.A.T</string>
+  <string name="lblInvoiceDetailVATCode">V.A.T Code</string>
+
+  <string name="lblInvoicePaymentHeader">Invoice payment</string>
+
+  <string name="lblNoPermissionToViewInvoices">You do not have permission to view invoices. Contact with your administrator for more details.</string>
+  <string name="MessagePrintFactoringCode1">Code factoring sous la référence {0} n° {1}/{2} </string>
+  <string name="MessagePrintFactoringCode2">Paiement au compte CBC Banque numéro 191-0432132-60 </string>
+
+  <!--Messages.aspx-->
+
+  <string name="lblRightPaneNotification">Notification</string>
+  <string name="message.JobReminderSubject">Announce about Job Expired Date</string>
+  <string name="message.JobReminderContent">
+    <![CDATA[
+    This job would be expired on {0}. Click <a href="{1}">here</a> to view this job.
+    ]]>
+  </string>
+  <string name="msgEmailSent">Your email has been seen.</string>
+  <string name="msgMissingEmailAddress">There must be at least one name in the To,Cc box.</string>
+  <string name="msgInvalidEmailFormat">You enter an invalid email format.</string>
+  <!--CandidateCVSearchResult.aspx-->
+  <string name="lblEnterAKeyword">Enter a keyword</string>
+  <string name="lblKeyword">Keyword</string>
+  <string name="lblCandidateCV">Candidate's curriculum vitae</string>
+  <string name="lblCandidateCVResultTitle">
+    <![CDATA[Results {0} of {1} for <strong>{2}</strong>]]>
+  </string>
+  <string name="lblNoCandidateCVFound">
+    <![CDATA[Your search - <strong>{0}</strong> - did not match any documents]]>
+  </string>
+
+</root>

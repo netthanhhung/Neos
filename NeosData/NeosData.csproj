@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{26C7A7A6-4699-4EF1-8269-2764C2EC38A9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Neos.Data</RootNamespace>
+    <AssemblyName>Neos.Data</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FrameworkLite, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\FrameworkLite.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationBlocks.Data, Version=2.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enums\enums.cs" />
+    <Compile Include="Models\ActionSearchCriteria.cs" />
+    <Compile Include="Models\Candidate.cs" />
+    <Compile Include="Models\CandidateCredentials.cs" />
+    <Compile Include="Models\CandidateDocument.cs" />
+    <Compile Include="Models\CandidateEvaluation.cs" />
+    <Compile Include="Models\CandidateExpectancy.cs" />
+    <Compile Include="Models\CandidateExpectation.cs" />
+    <Compile Include="Models\CandidateExpectedFunction.cs" />
+    <Compile Include="Models\CandidateExperience.cs" />
+    <Compile Include="Models\CandidateJob.cs" />
+    <Compile Include="Models\CandidateKnowledge.cs" />
+    <Compile Include="Models\CandidateSearchCriteria.cs" />
+    <Compile Include="Models\CandidateTelephone.cs" />
+    <Compile Include="Models\CandidateTraining.cs" />
+    <Compile Include="Models\CandidateFunction.cs" />
+    <Compile Include="Models\Action.cs" />
+    <Compile Include="Models\Company.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\CompanyLogo.cs" />
+    <Compile Include="Models\CompanyAddress.cs" />
+    <Compile Include="Models\CompanyDocument.cs" />
+    <Compile Include="Models\InvoiceUnpaid.cs" />
+    <Compile Include="Models\InvoiceVatCodes.cs" />
+    <Compile Include="Models\InvoicePayments.cs" />
+    <Compile Include="Models\InvoiceDetails.cs" />
+    <Compile Include="Models\InvoicesSearchCriteria.cs" />
+    <Compile Include="Models\Invoices.cs" />
+    <Compile Include="Models\PresentationEmailObject.cs" />
+    <Compile Include="Models\StatisticsStudyLevel.cs" />
+    <Compile Include="Models\ParamLegalForm.cs" />
+    <Compile Include="Models\ParamSituationCivil.cs" />
+    <Compile Include="Models\ParamStudyHierarchy.cs" />
+    <Compile Include="Models\ParamKnowledge.cs" />
+    <Compile Include="Models\JobSearchCriteria.cs" />
+    <Compile Include="Models\ParamPermission.cs" />
+    <Compile Include="Models\ParamProfile.cs" />
+    <Compile Include="Models\ParamUserPermission.cs" />
+    <Compile Include="Models\LegalForm.cs" />
+    <Compile Include="Models\ParamLocations.cs" />
+    <Compile Include="Models\Job.cs" />
+    <Compile Include="Models\ParamClientStatus.cs" />
+    <Compile Include="Models\ParamContactFunction.cs" />
+    <Compile Include="Models\ParamLangue.cs" />
+    <Compile Include="Models\ParamNationalite.cs" />
+    <Compile Include="Models\ParamTypeAction.cs" />
+    <Compile Include="Models\ParamFunction.cs" />
+    <Compile Include="Models\ParamStudyLevel.cs" />
+    <Compile Include="Models\ParamFormation.cs" />
+    <Compile Include="Models\CompanyContact.cs" />
+    <Compile Include="Models\CompanyContactTelephone.cs" />
+    <Compile Include="Models\ParamFunctionFam.cs" />
+    <Compile Include="Models\ParamKnowledgeFam.cs" />
+    <Compile Include="Models\ParamPays.cs" />
+    <Compile Include="Models\ParamType.cs" />
+    <Compile Include="Models\ParamUser.cs" />
+    <Compile Include="Models\UserMessage.cs" />
+    <Compile Include="NeosDAO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\CandidateCredentialsRepository.cs" />
+    <Compile Include="Repository\CandidateDocumentRepository.cs" />
+    <Compile Include="Repository\CandidateEvaluationRepository.cs" />
+    <Compile Include="Repository\CandidateExpectancyRepository.cs" />
+    <Compile Include="Repository\CandidateExpectationRepository.cs" />
+    <Compile Include="Repository\CandidateExpectedFunctionRepository.cs" />
+    <Compile Include="Repository\CandidateExperienceRepository.cs" />
+    <Compile Include="Repository\CandidateJobRepository.cs" />
+    <Compile Include="Repository\CandidateKnowledgeRepository.cs" />
+    <Compile Include="Repository\CandidateRepository.cs" />
+    <Compile Include="Repository\CandidateTelephoneRepository.cs" />
+    <Compile Include="Repository\CandidateTrainingRepository.cs" />
+    <Compile Include="Repository\CandidateFunctionRepository.cs" />
+    <Compile Include="Repository\ActionRepository.cs" />
+    <Compile Include="Repository\CompanyLogoRepository.cs" />
+    <Compile Include="Repository\CompanyRepository.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Repository\CompanyAddressRepository.cs" />
+    <Compile Include="Repository\CompanyDocumentRepository.cs" />
+    <Compile Include="Repository\InvoiceVatCodesRepository.cs" />
+    <Compile Include="Repository\InvoicePaymentsRepository.cs" />
+    <Compile Include="Repository\InvoiceDetailsRepository.cs" />
+    <Compile Include="Repository\InvoicesRepository.cs" />
+    <Compile Include="Repository\ParamLegalFormRepository.cs" />
+    <Compile Include="Repository\ParamSituationCivilRepository.cs" />
+    <Compile Include="Repository\ParamStudyHierarchyRepository.cs" />
+    <Compile Include="Repository\ParamKnowledgeRepository.cs" />
+    <Compile Include="Repository\ParamPermissionRepository.cs" />
+    <Compile Include="Repository\ParamProfileRepository.cs" />
+    <Compile Include="Repository\ParamUserPermissionRepository.cs" />
+    <Compile Include="Repository\LegalFormRepository.cs" />
+    <Compile Include="Repository\ParamLocationsRepository.cs" />
+    <Compile Include="Repository\JobRepository.cs" />
+    <Compile Include="Repository\ParamClientStatusRepository.cs" />
+    <Compile Include="Repository\ParamContactFunctionRepository.cs" />
+    <Compile Include="Repository\ParamLangueRepository.cs" />
+    <Compile Include="Repository\ParamNationaliteRepository.cs" />
+    <Compile Include="Repository\ParamTypeActionRepository.cs" />
+    <Compile Include="Repository\ParamFunctionRepository.cs" />
+    <Compile Include="Repository\ParamStudyLevelRepository.cs" />
+    <Compile Include="Repository\ParamFormationRepository.cs" />
+    <Compile Include="Repository\CompanyContactRepository.cs" />
+    <Compile Include="Repository\CompanyContactTelephoneRepository.cs" />
+    <Compile Include="Repository\ParamFunctionFamRepository.cs" />
+    <Compile Include="Repository\ParamKnowledgeFamRepository.cs" />
+    <Compile Include="Repository\ParamPaysRepository.cs" />
+    <Compile Include="Repository\ParamTypeRepository.cs" />
+    <Compile Include="Repository\ParamUserRepository.cs" />
+    <Compile Include="Repository\UserMessageRepository.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

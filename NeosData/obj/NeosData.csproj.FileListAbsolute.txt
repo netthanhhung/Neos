@@ -1,0 +1,16 @@
+C:\SVN-Projects\Neos\NeosData\bin\Release\Neos.Data.dll
+C:\SVN-Projects\Neos\NeosData\bin\Release\Neos.Data.pdb
+C:\SVN-Projects\Neos\NeosData\bin\Release\FrameworkLite.dll
+C:\SVN-Projects\Neos\NeosData\bin\Release\Microsoft.ApplicationBlocks.Data.dll
+C:\SVN-Projects\Neos\NeosData\bin\Release\FrameworkLite.pdb
+C:\SVN-Projects\Neos\NeosData\obj\Release\ResolveAssemblyReference.cache
+C:\SVN-Projects\Neos\NeosData\obj\Release\Neos.Data.dll
+C:\SVN-Projects\Neos\NeosData\obj\Release\Neos.Data.pdb
+C:\SVN-Projects\Neos\NeosData\bin\Debug\Neos.Data.dll
+C:\SVN-Projects\Neos\NeosData\bin\Debug\Neos.Data.pdb
+C:\SVN-Projects\Neos\NeosData\bin\Debug\FrameworkLite.dll
+C:\SVN-Projects\Neos\NeosData\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\SVN-Projects\Neos\NeosData\bin\Debug\FrameworkLite.pdb
+C:\SVN-Projects\Neos\NeosData\obj\Debug\ResolveAssemblyReference.cache
+C:\SVN-Projects\Neos\NeosData\obj\Debug\Neos.Data.dll
+C:\SVN-Projects\Neos\NeosData\obj\Debug\Neos.Data.pdb

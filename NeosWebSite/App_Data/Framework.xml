@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Framework>
+  <DataStores>
+    <Database isDefault="true" connectionString="Server=TRANHUNG\SQLEXPRESS;Database=Neos-20091121; uid=sa;pwd=HUNG;" provider="SqlClient" />
+  </DataStores>
+</Framework>
