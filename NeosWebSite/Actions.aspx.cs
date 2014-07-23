@@ -202,7 +202,7 @@ public partial class Actions : System.Web.UI.Page
         }
         ActionRepository repo = new ActionRepository();
         gridActions.VirtualItemCount = repo.CountActions(criteria, pageSize, pageNumber, sortExpress, sortExpressInvert);
-        IList<Action> list = repo.SearchActions(criteria, pageSize, pageNumber, sortExpress, sortExpressInvert);
+        IList<Neos.Data.Action> list = repo.SearchActions(criteria, pageSize, pageNumber, sortExpress, sortExpressInvert);
         gridActions.DataSource = list;
 
     }
@@ -234,7 +234,7 @@ public partial class Actions : System.Web.UI.Page
     {
         LinkButton lnkItem = (LinkButton)sender;
         int actionID = int.Parse(lnkItem.CommandArgument);
-        Action deleteItem = new Action(actionID);
+        Neos.Data.Action deleteItem = new Neos.Data.Action(actionID);
         ActionRepository repo = new ActionRepository();
         repo.Delete(deleteItem);
 
@@ -246,7 +246,7 @@ public partial class Actions : System.Web.UI.Page
     {
         LinkButton lnkItem = (LinkButton)sender;
         int actionID = int.Parse(lnkItem.CommandArgument);
-        Action exportItem = new ActionRepository().GetActionByActionID(actionID);
+        Neos.Data.Action exportItem = new ActionRepository().GetActionByActionID(actionID);
         if (exportItem != null)
         {
             string message = Common.ExportActionToAppoinment(exportItem);
@@ -278,7 +278,7 @@ public partial class Actions : System.Web.UI.Page
             GridDataItem dataItem = e.Item as GridDataItem;
             LinkButton buttonDelete = dataItem["TemplateDeleteActionColumn"].Controls[1] as LinkButton;
             buttonDelete.OnClientClick = "return confirm('" + ResourceManager.GetString("deleteConfirmText") + "')";
-            buttonDelete.CommandArgument = ((Action)e.Item.DataItem).ActionID.ToString();
+            buttonDelete.CommandArgument = ((Neos.Data.Action)e.Item.DataItem).ActionID.ToString();
             buttonDelete.Text = ResourceManager.GetString("deleteText");
 
             //LinkButton buttonEdit = dataItem["TemplateEditActionColumn"].Controls[1] as LinkButton;
@@ -289,7 +289,7 @@ public partial class Actions : System.Web.UI.Page
 
             LinkButton buttonExport = dataItem["TemplateExportActionColumn"].Controls[1] as LinkButton;
             buttonExport.OnClientClick = "return confirm('" + ResourceManager.GetString("confirmExportAction") + "')";
-            buttonExport.CommandArgument = ((Action)e.Item.DataItem).ActionID.ToString();
+            buttonExport.CommandArgument = ((Neos.Data.Action)e.Item.DataItem).ActionID.ToString();
             buttonExport.Text = ResourceManager.GetString("exportText");
         }
 
@@ -321,7 +321,7 @@ public partial class Actions : System.Web.UI.Page
         {
             ActionAjaxManager.AjaxSettings.AddAjaxSetting(ActionAjaxManager, gridActions);
             Neos.Data.ActionRepository actionRepo = new Neos.Data.ActionRepository();
-            actionRepo.Delete(new Action(GetSelectedActionID()));
+            actionRepo.Delete(new Neos.Data.Action(GetSelectedActionID()));
             gridActions.Rebind();
         }
 

@@ -2023,7 +2023,7 @@ public partial class CandidateProfile : System.Web.UI.Page
         if (candidateID != -1)
             gridActions.DataSource = new ActionRepository().GetActionOfCandidate(candidateID);
         else
-            gridActions.DataSource = new List<Action>();
+            gridActions.DataSource = new List<Neos.Data.Action>();
         gridActions.DataBind();
     }
 
@@ -2040,7 +2040,7 @@ public partial class CandidateProfile : System.Web.UI.Page
             if (candidateID != -1)
                 gridActions.DataSource = new ActionRepository().GetActionOfCandidate(candidateID);
             else
-                gridActions.DataSource = new List<Action>();
+                gridActions.DataSource = new List<Neos.Data.Action>();
         }
     }
 
@@ -2051,7 +2051,7 @@ public partial class CandidateProfile : System.Web.UI.Page
             GridDataItem dataItem = e.Item as GridDataItem;
             LinkButton buttonDelete = dataItem["TemplateDeleteCanActionColumn"].Controls[1] as LinkButton;
             buttonDelete.OnClientClick = "return confirm('" + ResourceManager.GetString("deleteConfirmText") + "')";
-            buttonDelete.CommandArgument = ((Action)e.Item.DataItem).ActionID.ToString();
+            buttonDelete.CommandArgument = ((Neos.Data.Action)e.Item.DataItem).ActionID.ToString();
             buttonDelete.Text = ResourceManager.GetString("deleteText");
 
             LinkButton buttonEdit = dataItem["TemplateEditCanActionColumn"].Controls[1] as LinkButton;
@@ -2061,7 +2061,7 @@ public partial class CandidateProfile : System.Web.UI.Page
             //buttonExport.OnClientClick = "OnActionExportClientClick('" + ResourceManager.GetString("confirmExportAction")
             //    +  "','" + buttonDelete.CommandArgument + "')";
             buttonExport.OnClientClick = "return confirm('" + ResourceManager.GetString("confirmExportAction") + "')";
-            buttonExport.CommandArgument = ((Action)e.Item.DataItem).ActionID.ToString();
+            buttonExport.CommandArgument = ((Neos.Data.Action)e.Item.DataItem).ActionID.ToString();
             buttonExport.Text = ResourceManager.GetString("exportText");
         }
     }
@@ -2070,7 +2070,7 @@ public partial class CandidateProfile : System.Web.UI.Page
     {
         LinkButton lnkItem = (LinkButton)sender;
         int actionID = int.Parse(lnkItem.CommandArgument);
-        Action deleteItem = new Action(actionID);
+        Neos.Data.Action deleteItem = new Neos.Data.Action(actionID);
         ActionRepository repo = new ActionRepository();
         repo.Delete(deleteItem);
 
@@ -2081,7 +2081,7 @@ public partial class CandidateProfile : System.Web.UI.Page
     {
         LinkButton lnkItem = (LinkButton)sender;
         int actionID = int.Parse(lnkItem.CommandArgument);
-        Action exportItem = new ActionRepository().GetActionByActionID(actionID);
+        Neos.Data.Action exportItem = new ActionRepository().GetActionByActionID(actionID);
         if (exportItem != null)
         {
             string message = Common.ExportActionToAppoinment(exportItem);

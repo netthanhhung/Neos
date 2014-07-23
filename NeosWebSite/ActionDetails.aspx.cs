@@ -101,7 +101,7 @@ public partial class ActionDetails : System.Web.UI.Page
 
                 int actionID = int.Parse(Request.QueryString["ActionID"]);
                 ActionRepository repo = new ActionRepository();
-                Action action = repo.GetActionByActionID(actionID);
+                Neos.Data.Action action = repo.GetActionByActionID(actionID);
                 if (action.CompanyID.HasValue)
                 {
                     hiddenCompanyId.Value = action.CompanyID.Value.ToString();
@@ -311,7 +311,7 @@ public partial class ActionDetails : System.Web.UI.Page
     }
     protected void OnBtnSave_Clicked(object sender, EventArgs e)
     {
-        Action saveItem = SaveAction();
+        Neos.Data.Action saveItem = SaveAction();
         if (saveItem == null) return;
         if (Request.QueryString["type"] == "action")
         {
@@ -333,7 +333,7 @@ public partial class ActionDetails : System.Web.UI.Page
         }
     }
 
-    private Action SaveAction()
+    private Neos.Data.Action SaveAction()
     {
         if (SessionManager.CurrentUser == null)
         {
@@ -342,7 +342,7 @@ public partial class ActionDetails : System.Web.UI.Page
         }
 
         ActionRepository repo = new ActionRepository();
-        Action saveItem = GetAction();
+        Neos.Data.Action saveItem = GetAction();
         if (string.IsNullOrEmpty(Request.QueryString["ActionID"]))
         {
             //Insert new record
@@ -368,11 +368,11 @@ public partial class ActionDetails : System.Web.UI.Page
         }
 
         return saveItem;
-    }    
+    }
 
-    private Action GetAction()
+    private Neos.Data.Action GetAction()
     {
-        Action saveItem = new Action();
+        Neos.Data.Action saveItem = new Neos.Data.Action();
         if (!string.IsNullOrEmpty(ddlTypeAction.SelectedValue))
         {
             saveItem.TypeAction = int.Parse(ddlTypeAction.SelectedValue);
@@ -455,7 +455,7 @@ public partial class ActionDetails : System.Web.UI.Page
         }
         else if (e.Argument.IndexOf("SaveActionDetail") != -1)
         {
-            Action saveItem = SaveAction();
+            Neos.Data.Action saveItem = SaveAction();
             if (saveItem != null)
             {
                 if (Request.QueryString["type"] == "action")

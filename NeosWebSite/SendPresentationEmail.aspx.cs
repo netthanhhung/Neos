@@ -148,7 +148,7 @@ public partial class SendPresentationEmail : System.Web.UI.Page
         if (SessionManager.PresentationEmailObject != null)
         {
             PresentationEmailObject emailObject = SessionManager.PresentationEmailObject;
-            Action newAction = new Action();
+            Neos.Data.Action newAction = new Neos.Data.Action();
             newAction.CandidateID = emailObject.CandidateId;
             newAction.CompanyID = emailObject.CompanyId;
             if(emailObject.ContactId > 0) 

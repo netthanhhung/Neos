@@ -588,7 +588,7 @@ public static class Common
         return string.Empty;
     }
 
-    public static bool ExportActionToOutlook(Page page, Action action)
+    public static bool ExportActionToOutlook(Page page, Neos.Data.Action action)
     {        
         string message = string.Empty;
         try
@@ -704,7 +704,7 @@ public static class Common
         }        
     }
 
-    public static string ExportActionToAppoinment(Action action)
+    public static string ExportActionToAppoinment(Neos.Data.Action action)
     {
         string message = string.Empty;
         try
